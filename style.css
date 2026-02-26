@@ -8,12 +8,13 @@ body {
 /* Hero Section */
 .hero {
     height: 90vh;
-    background: #0b2c4d;
+    background: url("images/brain.jpg") center/cover no-repeat;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    position: relative;
 }
 
 .hero h1 {
@@ -133,5 +134,6 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
 
