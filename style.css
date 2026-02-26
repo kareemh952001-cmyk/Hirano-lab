@@ -91,6 +91,33 @@ body {
     opacity: 1;
     transform: translateY(0);
 }
+/* Subtitle under hero title */
+.subtitle {
+    margin-top: 20px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    opacity: 0.8;
+}
+
+/* Members View Button */
+.view-more {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.view-button {
+    display: inline-block;
+    padding: 12px 28px;
+    border: 1px solid #0b2c4d;
+    text-decoration: none;
+    color: #0b2c4d;
+    transition: all 0.3s ease;
+}
+
+.view-button:hover {
+    background: #0b2c4d;
+    color: white;
+}
 
 /* Footer */
 .footer {
@@ -99,3 +126,4 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
