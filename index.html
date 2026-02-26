@@ -4,69 +4,75 @@
 <meta charset="UTF-8">
 <title>Kareem Laboratory</title>
 <link rel="stylesheet" href="style.css">
+<script defer src="script.js"></script>
 </head>
 
 <body>
 
-<div class="header">
-    Kareem Laboratory of Artificial Hibernation
-</div>
+<header class="hero">
+    <div class="hero-content">
+        <h1>Kareem Laboratory</h1>
+        <p>Artificial Hibernation & miRNA Research</p>
+    </div>
+</header>
 
-<div class="nav">
-    <a href="index.html">Home</a>
-    <a href="research.html">Research</a>
-    <a href="members.html">Members</a>
-    <a href="publications.html">Publications</a>
-    <a href="contact.html">Contact</a>
-</div>
+<nav class="nav">
+    <a href="#about">About</a>
+    <a href="#research">Research</a>
+    <a href="#members">Members</a>
+    <a href="#publications">Publications</a>
+    <a href="#contact">Contact</a>
+</nav>
 
-<div class="section">
-    <h2>About the Laboratory</h2>
+<section id="about" class="section fade-in">
+    <h2>About</h2>
     <p>
         We investigate artificial torpor models, hypothalamic Q neurons,
         and miRNA-mediated protective mechanisms during hypometabolism.
     </p>
-</div>
+</section>
 
-<div class="section">
-    <h2>Explore</h2>
-
+<section id="research" class="section fade-in">
+    <h2>Research</h2>
     <div class="grid">
-
-        <a href="research.html" style="text-decoration:none; color:inherit;">
-        <div class="card">
-            <h3>Research</h3>
-            <p>Artificial torpor, neural circuits, and gene regulation.</p>
-        </div>
+        <a href="research.html" class="card">
+            <h3>Artificial Torpor</h3>
+            <p>Neural circuits and metabolic regulation.</p>
         </a>
-
-        <a href="members.html" style="text-decoration:none; color:inherit;">
-        <div class="card">
-            <h3>Members</h3>
-            <p>Principal investigator and laboratory members.</p>
-        </div>
+        <a href="research.html" class="card">
+            <h3>Q Neurons</h3>
+            <p>Hypothalamic activation models.</p>
         </a>
-
-        <a href="publications.html" style="text-decoration:none; color:inherit;">
-        <div class="card">
-            <h3>Publications</h3>
-            <p>Recent papers and scientific contributions.</p>
-        </div>
-        </a>
-
-        <a href="contact.html" style="text-decoration:none; color:inherit;">
-        <div class="card">
-            <h3>Contact</h3>
-            <p>Access, admissions, and inquiries.</p>
-        </div>
-        </a>
-
     </div>
-</div>
+</section>
 
-<div class="footer">
+<section id="members" class="section fade-in">
+    <h2>Members</h2>
+    <a href="members.html" class="card">
+        <h3>Laboratory Team</h3>
+        <p>Principal investigator and members.</p>
+    </a>
+</section>
+
+<section id="publications" class="section fade-in">
+    <h2>Publications</h2>
+    <a href="publications.html" class="card">
+        <h3>Recent Work</h3>
+        <p>Scientific contributions and papers.</p>
+    </a>
+</section>
+
+<section id="contact" class="section fade-in">
+    <h2>Contact</h2>
+    <a href="contact.html" class="card">
+        <h3>Get in Touch</h3>
+        <p>Access and inquiries.</p>
+    </a>
+</section>
+
+<footer class="footer">
 © 2026 Kareem Laboratory
-</div>
+</footer>
 
 </body>
 </html>
