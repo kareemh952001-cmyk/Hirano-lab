@@ -141,7 +141,7 @@ body {
 
 .contact-container {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.5fr;
     gap: 40px;
     align-items: start;
 }
@@ -171,6 +171,7 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
 
 
