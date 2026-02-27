@@ -143,12 +143,13 @@ body {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
     gap: 40px;
-    align-items: start;
+    align-items: center;
 }
 
 .contact-info p {
     margin-bottom: 20px;
-    font-size: 14px;
+    font-size: 17px;
+    line-height: 1.6;
 }
 
 .contact-info a {
@@ -171,11 +172,4 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
-
-
-
-
-
-
-
 
