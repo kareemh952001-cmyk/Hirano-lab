@@ -139,6 +139,31 @@ body {
     color: white;
 }
 
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: start;
+}
+
+.contact-info p {
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+.contact-info a {
+    color: #0b2c4d;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+.contact-map iframe {
+    border-radius: 8px;
+}
+
 /* Footer */
 .footer {
     padding: 40px;
@@ -146,6 +171,7 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
 
 
