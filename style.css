@@ -76,9 +76,9 @@ body {
 /* Grid + Cards */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 280px));
     justify-content: start;
-    gap: 30px;
+    gap: 40px;
 }
 
 .card {
@@ -183,5 +183,6 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
 
