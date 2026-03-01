@@ -176,6 +176,23 @@ body {
     border-radius: 8px;
 }
 
+.publication-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.publication-item h3 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.publication-item p {
+    margin: 4px 0;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
 /* Footer */
 .footer {
     padding: 40px;
@@ -183,6 +200,7 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
 
 
