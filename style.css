@@ -76,7 +76,8 @@ body {
 /* Grid + Cards */
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px, 250px));
+    justify-content: start;
     gap: 30px;
 }
 
@@ -98,6 +99,16 @@ body {
     height: 260px;
     object-fit: cover;
     margin-bottom: 20px;
+}
+
+.pi-grid {
+    display: block;
+}
+
+.pi-card {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* Fade-in animation */
@@ -172,4 +183,5 @@ body {
     border-top: 1px solid #ddd;
     font-size: 14px;
 }
+
 
